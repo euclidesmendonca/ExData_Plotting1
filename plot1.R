@@ -15,7 +15,6 @@ data.trim$Time <- strptime(paste(data.trim$Date, data.trim$Time), format="%Y-%m-
 str(data.trim)
 
 # Plot 1 ---------------
-
 with(data.trim, hist(Global_active_power, col="red", 
                          breaks=15,
                          xlab="Global Active Power (kilowatts)",
